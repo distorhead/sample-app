@@ -11,8 +11,6 @@ spec:
       labels:
         app: sample-app
     spec:
-      imagePullSecrets:
-      - name: registrysecret
       containers:
       - name: app
         image: {{ .Values.werf.image.app }}
