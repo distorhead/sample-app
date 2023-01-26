@@ -3,4 +3,3 @@ project: sample-app
 ---
 image: app
 dockerfile: ./Dockerfile
-staged: true
